@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.invite-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.invite-card img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.invite-card h1 {
+  color: #ff4d6d;
+  margin-bottom: 10px;
+}
+
+.invite-card p {
+  color: #444;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #cc3752;
+}
